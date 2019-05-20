@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="jesicagu">
+    <title>Bible | KJV </title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"></script>
+    <script src="/static/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-grid.min.css"/>
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-reboot.min.css"/>
+
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">The Holy Bible</a>
+        <form class="form-inline">
+            <a href="/"><button type="button" class="btn btn-sm btn-outline-light" style="width: 100px;">Home</button></a>
+        </form>
+    </nav><br>
+
+    <div class="container">
+        <div class="container center text-center">
+            <h2><small><b>King James Version (KJV)</b></small></h2>
+            <p class="lead">Enter the word(s) to obtain a verse(s) containing the word(s) based on the bible version</p><hr>
+        </div>
+        <div class="card bg-light text-dark">
+            <div class="card-body">
+                <h5><small><b>Search in Bible : </b></small></h5><br>
+                <form action="result/" method="post">
+                    {% csrf_token %}
+                    <textarea class="form-control form-control" name="wordKJV" placeholder="Insert the word(s) .." required></textarea>
+                    <br>
+                    <button type="submit" class="btn btn-info btn-sm">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light">
+        <span class="navbar-text">
+            <b>&copy; Information Retrieval - Kelompok 5 | 2019</b>
+        </span>
+    </nav>
+</body>
+
+</html>

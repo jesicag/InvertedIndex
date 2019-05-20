@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="jesicagu">
+    <title>Bible | Inverted Index</title>
+    <!-- Bootstrap core JavaScript -->
+    <script src="/static/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="/static/bootstrap/js/bootstrap.js"></script>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/static/bootstrap/css/bootstrap-reboot.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">The Holy Bible</a>
+        <form class="form-inline">
+            <a href="/"><button type="button" class="btn btn-sm btn-outline-light" style="width: 100px;">Home</button></a>
+        </form>
+    </nav><br>
+
+    <div class="container">
+        <div class="container center text-center">
+            <h2><small><b>Bible's Verses in Various Versions using Inverted Indexing</b></small></h2>
+            <hr>
+{#            <p class="lead">Enter the word(s) to obtain a verse(s) containing the word(s) based on the bible version</p><hr>#}
+        </div>
+
+        <div class="card bg-light text-dark">
+            <div class="card-body">
+                <h5><small><b>Result for : </b>'{{ textKJV }}'</small></h5>
+                <hr>
+                {% for i in calKJV %}
+                <small>
+                    <b>{{i.0}}</b>  <p>{{i.1}}</p>
+                </small>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+{#    <nav class="navbar fixed-bottom navbar-light bg-light">#}
+{#        <span class="navbar-text">#}
+{#            &copy; Information Retrieval - Kelompok 5 | 2019#}
+{#        </span>#}
+{#    </nav>#}
+</body>
+
+</html>
