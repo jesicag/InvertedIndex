@@ -24,8 +24,9 @@ def indexRSV(request):
 def preprocessingInputKJV(request):
     if request.method == 'POST' :
         textKJV = request.POST['wordKJV']
+        queryKJV = inputKJV.processQuery(textKJV)
         calKJV = inputKJV.mainKJV(textKJV)
-        contextKJV = {'calKJV':calKJV, 'textKJV':textKJV}
+        contextKJV = {'calKJV':calKJV, 'textKJV':textKJV, 'queryKJV':queryKJV}
         return render(request,'invertedIndex/KJVresult.html',contextKJV)
     return render(request, 'invertedIndex/index.html')
 
@@ -41,23 +42,26 @@ def preprocessingInputASV(request):
 def preprocessingInputMKJV(request):
     if request.method == 'POST' :
         textMKJV = request.POST['wordMKJV']
+        queryMKJV = inputMKJV.processQuery(textMKJV)
         calMKJV = inputMKJV.mainMKJV(textMKJV)
-        contextMKJV = {'calMKJV':calMKJV, 'textMKJV':textMKJV}
+        contextMKJV = {'calMKJV':calMKJV, 'textMKJV':textMKJV, 'queryMKJV':queryMKJV}
         return render(request,'invertedIndex/MKJVresult.html',contextMKJV)
     return render(request, 'invertedIndex/index.html')
 
 def preprocessingInputNHEB(request):
     if request.method == 'POST' :
         textNHEB = request.POST['wordNHEB']
+        queryNHEB = inputNHEB.processQuery(textNHEB)
         calNHEB = inputNHEB.mainNHEB(textNHEB)
-        contextNHEB = {'calNHEB':calNHEB, 'textNHEB':textNHEB}
+        contextNHEB = {'calNHEB':calNHEB, 'textNHEB':textNHEB, 'queryNHEB':queryNHEB}
         return render(request,'invertedIndex/NHEBresult.html',contextNHEB)
     return render(request, 'invertedIndex/index.html')
 
 def preprocessingInputRSV(request):
     if request.method == 'POST' :
         textRSV = request.POST['wordRSV']
+        queryRSV = inputRSV.processQuery(textRSV)
         calRSV = inputRSV.mainRSV(textRSV)
-        contextRSV = {'calRSV':calRSV, 'textRSV':textRSV}
+        contextRSV = {'calRSV':calRSV, 'textRSV':textRSV, 'queryRSV':queryRSV}
         return render(request,'invertedIndex/RSVresult.html',contextRSV)
     return render(request, 'invertedIndex/index.html')

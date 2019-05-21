@@ -1,7 +1,6 @@
 """
 Created on Thu May  2 19:51:33 2019
 
-@author: ElisabethJesicaG
 """
 import xml.etree.ElementTree as ET
 from nltk import word_tokenize
@@ -10,6 +9,8 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import math
+from collections import OrderedDict
+from operator import itemgetter
 # =============================================================================
 # BIBLE PREPROCESSING
 # READ FILE XML
@@ -181,7 +182,7 @@ def tfidf(tf, idf):
         wtd = {}
         for doc in tf[word]:
             wtd[doc] = (1+(math.log10(tf[word][doc])))*idf[word]
-        w[word] = wtd
+        w[word] = (wtd)
     return w
 # =============================================================================
 # SCORING
@@ -194,7 +195,7 @@ def score(TFIDF):
     for i in TFIDF:
         for j in TFIDF[i]:
             res[j] = res[j]+TFIDF[i][j]
-    sorted_dict = sorted(res,key=res.get, reverse=True)
+    sorted_dict = OrderedDict(sorted(res.items(), key=itemgetter(1), reverse = True))#[:1])
     return sorted_dict
 # =============================================================================
 # QUERY PREPROCESSING
@@ -278,12 +279,13 @@ N = len(d)
 docFrequency = df(o, k)
 invDocFrequency = idf(docFrequency, N)
 termFrequency = tf(o, k)
-TFIDF = tfidf(termFrequency, invDocFrequency)
-TFIDF
+TFIDF = tfidf(termFrequency, invDocFrequency)   
 sc = score(TFIDF)
 sc
 result = []
-for i in range(len(sc)):
-    a=d.index(sc[i])
-    result.append((d[a],e[a]))
+for i in range(len(sc)):    
+    a = d.index(list(sc.keys())[i])
+    x = list(sc.keys())[i]
+    y = list(sc.values())[i]
+    result.append((x,y,e[a]))
 print(result)

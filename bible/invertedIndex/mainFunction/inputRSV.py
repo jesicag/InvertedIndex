@@ -5,6 +5,8 @@ import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import math
+from collections import OrderedDict
+from operator import itemgetter
 # =============================================================================
 # QUERY PREPROCESSING
 # QUERY(S) TOKENIZATION
@@ -226,7 +228,7 @@ def score(TFIDF):
     for i in TFIDF:
         for j in TFIDF[i]:
             res[j] = res[j] + TFIDF[i][j]
-    sorted_dict = sorted(res, key=res.get, reverse=True)[:10]
+    sorted_dict = OrderedDict(sorted(res.items(), key=itemgetter(1), reverse=True)[:10])
     return sorted_dict
 # =============================================================================
 # PROCESS FOR QUERY(S)
@@ -267,6 +269,8 @@ def mainRSV(textRSV):
     sc = score(TFIDF)
     result = []
     for i in range(len(sc)):
-        docLoc = noVersRSV.index(sc[i])
-        result.append((noVersRSV[docLoc],versesRSV[docLoc]))
+        a = noVersRSV.index(list(sc.keys())[i])
+        x = list(sc.keys())[i]
+        y = list(sc.values())[i]
+        result.append((x, y, versesRSV[a]))
     return result

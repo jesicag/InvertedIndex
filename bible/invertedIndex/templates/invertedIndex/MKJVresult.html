@@ -36,10 +36,11 @@
         <div class="card bg-light text-dark">
             <div class="card-body">
                 <h5><small><b>Result for : </b>'{{ textMKJV }}'</small></h5>
+                <h5><small><b>Query Preprocessing   : {{ queryMKJV }}</b></small></h5>
                 <hr>
                 {% for i in calMKJV %}
                 <small>
-                    <b>{{i.0}}</b> <p>{{i.1}}</p>
+                    <b>{{i.0}}</b> - {{ i.1 }} <p>{{i.2}}</p>
                 </small>
                 {% endfor %}
             </div>

@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bb076cd-81bf-4732-9aaf-52e964310d4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invertedIndex/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/invertedIndex/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,44 +86,45 @@
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1074" />
-          <entry key="py" value="1903" />
+          <entry key="html" value="1098" />
+          <entry key="py" value="2119" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1074" />
+          <entry key="HTML" value="1098" />
           <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="1903" />
+          <entry key="Python" value="2119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="76" />
-          <entry key="py" value="30" />
+          <entry key="html" value="91" />
+          <entry key="py" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="76" />
-          <entry key="Python" value="30" />
+          <entry key="HTML" value="91" />
+          <entry key="Python" value="48" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVindex.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="237">
+              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -121,30 +132,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/invertedIndex/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+            <state relative-caret-position="170">
+              <caret line="28" column="78" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="78" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1558349503095" expanded="true" signature="336:644" ph="..." />
+                <marker date="1558422777133" expanded="true" signature="336:644" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="233" column="23" lean-forward="true" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
+            <state relative-caret-position="291">
+              <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -153,37 +155,79 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVindex.html">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+            <state relative-caret-position="115">
+              <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVindex.html">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+            <state relative-caret-position="240">
+              <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBindex.html">
+        <entry file="file://$PROJECT_DIR$/bible/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+            <state relative-caret-position="374">
+              <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+              <folding>
+                <element signature="e#629#661#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVindex.html">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+            <state relative-caret-position="322">
+              <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="234" column="79" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,24 +269,24 @@
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/invertedIndex.html" />
         <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputPreprocessing.py" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVIndex.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py" />
-        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py" />
-        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py" />
-        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py" />
         <option value="$PROJECT_DIR$/bible/urls.py" />
-        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/index.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVindex.html" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVindex.html" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVindex.html" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBindex.html" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVindex.html" />
-        <option value="$PROJECT_DIR$/invertedIndex/views.py" />
+        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py" />
         <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html" />
+        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html" />
+        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html" />
+        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html" />
+        <option value="$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html" />
+        <option value="$PROJECT_DIR$/invertedIndex/views.py" />
+        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py" />
+        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py" />
+        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py" />
+        <option value="$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py" />
       </list>
     </option>
   </component>
@@ -425,8 +469,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -469,118 +514,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputPreprocessing.py">
+    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputPreprocessing.py" />
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/invertedIndex.html" />
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/invertedIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="34" lean-forward="true" selection-end-line="55" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="259" column="41" selection-start-line="259" selection-start-column="41" selection-end-line="259" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="262" column="35" selection-start-line="262" selection-start-column="35" selection-end-line="262" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="233" column="4" lean-forward="true" selection-start-line="233" selection-start-column="4" selection-end-line="233" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bible/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="e#629#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" column="104" selection-start-line="24" selection-start-column="83" selection-end-line="24" selection-end-column="104" />
+        <state relative-caret-position="17">
+          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="90" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
+        <state relative-caret-position="697">
           <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="697">
           <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBindex.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
+        <state relative-caret-position="697">
           <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
         </state>
       </provider>
@@ -592,24 +551,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVindex.html">
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/MKJVresult.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="251">
+          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/index.html">
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/NHEBresult.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="90" />
+        <state relative-caret-position="149">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/RSVresult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/KJVresult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="42" column="61" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bible/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputRSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputMKJV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputKJV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputASV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="233" column="23" lean-forward="true" selection-start-line="233" selection-start-column="23" selection-end-line="233" selection-end-column="23" />
+        <state relative-caret-position="-51">
+          <caret line="234" column="79" selection-start-line="234" selection-start-column="79" selection-end-line="234" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/mainFunction/inputNHEB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="230" column="86" selection-start-line="230" selection-start-column="86" selection-end-line="230" selection-end-column="86" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
@@ -618,19 +641,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="38" column="54" lean-forward="true" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="170">
+          <caret line="28" column="78" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="78" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
-            <marker date="1558349503095" expanded="true" signature="336:644" ph="..." />
+            <marker date="1558422777133" expanded="true" signature="336:644" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVresult.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        <state relative-caret-position="322">
+          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-start-column="61" selection-end-line="42" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/invertedIndex/templates/invertedIndex/ASVindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
     </entry>
