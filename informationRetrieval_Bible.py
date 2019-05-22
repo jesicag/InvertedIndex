@@ -289,3 +289,7 @@ for i in range(len(sc)):
     y = list(sc.values())[i]
     result.append((x,y,e[a]))
 print(result)
+
+a='god said'
+b = a.split()
+b

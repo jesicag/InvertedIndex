@@ -1,5 +1,5 @@
 # Basic Inverted Index for Bible Search
->Bible serch in basic inverted index using Django Framework
+>Bible search in basic inverted index using Django Framework. Inverted index method applied in this project is proximity index.
 
 ![](homepage.png)
 
